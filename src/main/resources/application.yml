@@ -1,0 +1,16 @@
+server:
+  port: 8083
+
+
+spring:
+  ## 页面配置
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+  ## 数据库配置
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/flowable?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
